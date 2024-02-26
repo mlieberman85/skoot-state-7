@@ -1,0 +1,43 @@
+contribution-policy:
+  accepts-automated-pull-requests: true
+  accepts-pull-requests: true
+dependencies:
+  dependencies-lists:
+  - https://github.com/mlieberman85/skoot-state-7/blob/main/go.mod
+  sbom:
+  - sbom-creation: Created by goreleaser
+    sbom-file: https://github.com/mlieberman85/skoot-state-7/releases/latest/download/main-linux-amd64.spdx.sbom.json
+    sbom-format: SPDX
+    sbom-url: https://spdx.github.io/spdx-spec/v2.3/
+  - sbom-creation: Created by goreleaser
+    sbom-file: https://github.com/mlieberman85/skoot-state-7/releases/latest/download/main-linux-arm.spdx.sbom.json
+    sbom-format: SPDX
+    sbom-url: https://spdx.github.io/spdx-spec/v2.3/
+  - sbom-creation: Created by goreleaser
+    sbom-file: https://github.com/mlieberman85/skoot-state-7/releases/latest/download/main-linux-arm64.spdx.sbom.json
+    sbom-format: SPDX
+    sbom-url: https://spdx.github.io/spdx-spec/v2.3/
+  - sbom-creation: Created by goreleaser
+    sbom-file: https://github.com/mlieberman85/skoot-state-7/releases/latest/download/main-windows-amd64.exe.spdx.sbom.json
+    sbom-format: SPDX
+    sbom-url: https://spdx.github.io/spdx-spec/v2.3/
+  - sbom-creation: Created by goreleaser
+    sbom-file: https://github.com/mlieberman85/skoot-state-7/releases/latest/download/main.spdx.sbom.json
+    sbom-format: SPDX
+    sbom-url: https://spdx.github.io/spdx-spec/v2.3/
+  third-party-packages: true
+distribution-points: []
+header:
+  expiration-date: 2025-02-25T21:54:37.481337856Z
+  last-reviewed: 2024-02-26T21:54:37.481340692Z
+  last-updated: 2024-02-26T21:54:37.481340832Z
+  license: https://github.com/mlieberman85/skoot-state-7/blob/main/LICENSE
+  project-url: https://github.com/mlieberman85/skoot-state-7
+  schema-version: 1.0.0
+project-lifecycle:
+  bug-fixes-only: false
+  status: active
+security-contacts: []
+vulnerability-reporting:
+  accepts-vulnerability-reports: true
+  security-policy: https://github.com/mlieberman85/skoot-state-7/blob/main/SECURITY.md
